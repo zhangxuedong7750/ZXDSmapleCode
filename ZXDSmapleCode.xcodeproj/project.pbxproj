@@ -13,7 +13,21 @@
 		E1BE4F3E1CC627620090B800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BE4F3C1CC627620090B800 /* Main.storyboard */; };
 		E1BE4F401CC627620090B800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BE4F3F1CC627620090B800 /* Assets.xcassets */; };
 		E1BE4F431CC627620090B800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BE4F411CC627620090B800 /* LaunchScreen.storyboard */; };
+		E1BE4F4D1CC6279E0090B800 /* NSNull+ZXDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4F4C1CC6279E0090B800 /* NSNull+ZXDExtension.m */; };
+		E1BE4F551CC62F3C0090B800 /* ZXDSmapleCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4F541CC62F3C0090B800 /* ZXDSmapleCodeTests.m */; };
+		E1BE4F5E1CC631560090B800 /* NSData+ZXDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4F5D1CC631560090B800 /* NSData+ZXDExtension.m */; };
+		E1BE4F611CC632C50090B800 /* NSString+ZXDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4F601CC632C50090B800 /* NSString+ZXDExtension.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1BE4F571CC62F3C0090B800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BE4F281CC627620090B800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BE4F2F1CC627620090B800;
+			remoteInfo = ZXDSmapleCode;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E1BE4F301CC627620090B800 /* ZXDSmapleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXDSmapleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +40,26 @@
 		E1BE4F3F1CC627620090B800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BE4F421CC627620090B800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1BE4F441CC627620090B800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BE4F4B1CC6279E0090B800 /* NSNull+ZXDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+ZXDExtension.h"; sourceTree = "<group>"; };
+		E1BE4F4C1CC6279E0090B800 /* NSNull+ZXDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+ZXDExtension.m"; sourceTree = "<group>"; };
+		E1BE4F521CC62F3C0090B800 /* ZXDSmapleCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXDSmapleCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BE4F541CC62F3C0090B800 /* ZXDSmapleCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXDSmapleCodeTests.m; sourceTree = "<group>"; };
+		E1BE4F561CC62F3C0090B800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BE4F5C1CC631560090B800 /* NSData+ZXDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZXDExtension.h"; sourceTree = "<group>"; };
+		E1BE4F5D1CC631560090B800 /* NSData+ZXDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZXDExtension.m"; sourceTree = "<group>"; };
+		E1BE4F5F1CC632C50090B800 /* NSString+ZXDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXDExtension.h"; sourceTree = "<group>"; };
+		E1BE4F601CC632C50090B800 /* NSString+ZXDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXDExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E1BE4F2D1CC627620090B800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BE4F4F1CC62F3C0090B800 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				E1BE4F321CC627620090B800 /* ZXDSmapleCode */,
+				E1BE4F531CC62F3C0090B800 /* ZXDSmapleCodeTests */,
 				E1BE4F311CC627620090B800 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				E1BE4F301CC627620090B800 /* ZXDSmapleCode.app */,
+				E1BE4F521CC62F3C0090B800 /* ZXDSmapleCodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +90,7 @@
 		E1BE4F321CC627620090B800 /* ZXDSmapleCode */ = {
 			isa = PBXGroup;
 			children = (
+				E1BE4F4A1CC627760090B800 /* ObjectExtension */,
 				E1BE4F361CC627620090B800 /* AppDelegate.h */,
 				E1BE4F371CC627620090B800 /* AppDelegate.m */,
 				E1BE4F391CC627620090B800 /* ViewController.h */,
@@ -77,6 +110,28 @@
 				E1BE4F341CC627620090B800 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1BE4F4A1CC627760090B800 /* ObjectExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE4F4B1CC6279E0090B800 /* NSNull+ZXDExtension.h */,
+				E1BE4F4C1CC6279E0090B800 /* NSNull+ZXDExtension.m */,
+				E1BE4F5C1CC631560090B800 /* NSData+ZXDExtension.h */,
+				E1BE4F5D1CC631560090B800 /* NSData+ZXDExtension.m */,
+				E1BE4F5F1CC632C50090B800 /* NSString+ZXDExtension.h */,
+				E1BE4F601CC632C50090B800 /* NSString+ZXDExtension.m */,
+			);
+			name = ObjectExtension;
+			sourceTree = "<group>";
+		};
+		E1BE4F531CC62F3C0090B800 /* ZXDSmapleCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE4F541CC62F3C0090B800 /* ZXDSmapleCodeTests.m */,
+				E1BE4F561CC62F3C0090B800 /* Info.plist */,
+			);
+			path = ZXDSmapleCodeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +154,24 @@
 			productReference = E1BE4F301CC627620090B800 /* ZXDSmapleCode.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E1BE4F511CC62F3C0090B800 /* ZXDSmapleCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BE4F591CC62F3C0090B800 /* Build configuration list for PBXNativeTarget "ZXDSmapleCodeTests" */;
+			buildPhases = (
+				E1BE4F4E1CC62F3C0090B800 /* Sources */,
+				E1BE4F4F1CC62F3C0090B800 /* Frameworks */,
+				E1BE4F501CC62F3C0090B800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BE4F581CC62F3C0090B800 /* PBXTargetDependency */,
+			);
+			name = ZXDSmapleCodeTests;
+			productName = ZXDSmapleCodeTests;
+			productReference = E1BE4F521CC62F3C0090B800 /* ZXDSmapleCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +183,10 @@
 				TargetAttributes = {
 					E1BE4F2F1CC627620090B800 = {
 						CreatedOnToolsVersion = 7.1;
+					};
+					E1BE4F511CC62F3C0090B800 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E1BE4F2F1CC627620090B800;
 					};
 				};
 			};
@@ -127,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				E1BE4F2F1CC627620090B800 /* ZXDSmapleCode */,
+				E1BE4F511CC62F3C0090B800 /* ZXDSmapleCodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +220,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1BE4F501CC62F3C0090B800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -149,13 +234,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BE4F4D1CC6279E0090B800 /* NSNull+ZXDExtension.m in Sources */,
 				E1BE4F3B1CC627620090B800 /* ViewController.m in Sources */,
+				E1BE4F5E1CC631560090B800 /* NSData+ZXDExtension.m in Sources */,
 				E1BE4F381CC627620090B800 /* AppDelegate.m in Sources */,
+				E1BE4F611CC632C50090B800 /* NSString+ZXDExtension.m in Sources */,
 				E1BE4F351CC627620090B800 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1BE4F4E1CC62F3C0090B800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BE4F551CC62F3C0090B800 /* ZXDSmapleCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1BE4F581CC62F3C0090B800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BE4F2F1CC627620090B800 /* ZXDSmapleCode */;
+			targetProxy = E1BE4F571CC62F3C0090B800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E1BE4F3C1CC627620090B800 /* Main.storyboard */ = {
@@ -279,6 +383,30 @@
 			};
 			name = Release;
 		};
+		E1BE4F5A1CC62F3C0090B800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXDSmapleCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.ZXDSmapleCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXDSmapleCode.app/ZXDSmapleCode";
+			};
+			name = Debug;
+		};
+		E1BE4F5B1CC62F3C0090B800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXDSmapleCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.ZXDSmapleCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXDSmapleCode.app/ZXDSmapleCode";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -296,6 +424,14 @@
 			buildConfigurations = (
 				E1BE4F481CC627620090B800 /* Debug */,
 				E1BE4F491CC627620090B800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1BE4F591CC62F3C0090B800 /* Build configuration list for PBXNativeTarget "ZXDSmapleCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BE4F5A1CC62F3C0090B800 /* Debug */,
+				E1BE4F5B1CC62F3C0090B800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

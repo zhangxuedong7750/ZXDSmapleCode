@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E1BE4F511CC62F3C0090B800"
+               BuildableName = "ZXDSmapleCodeTests.xctest"
+               BlueprintName = "ZXDSmapleCodeTests"
+               ReferencedContainer = "container:ZXDSmapleCode.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
