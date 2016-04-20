@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZXDBlackMagic.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
+    //ZXDBlackMagic使用
+    zxd_autoBlock{
+    
+        NSLog(@"this is auto block");
+    };
+    
+    CGPoint p = CGPointMake(1, 3);
+    NSLog(@"%s",zxd_encode(p));
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end

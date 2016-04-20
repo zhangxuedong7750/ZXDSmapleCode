@@ -37,6 +37,7 @@
     }];
 }
 
+#pragma NSNull测试
 -(void)testNull{
 
     XCTAssert( ((NSArray *)[NSNull null])[1] == nil);

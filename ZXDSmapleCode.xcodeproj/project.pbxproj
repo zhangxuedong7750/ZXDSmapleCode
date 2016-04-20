@@ -52,6 +52,7 @@
 		E1BE4F601CC632C50090B800 /* NSString+ZXDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXDExtension.m"; sourceTree = "<group>"; };
 		E1F011F51CC70EA900251314 /* NSObject+ZXDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXDExtension.h"; sourceTree = "<group>"; };
 		E1F011F61CC70EA900251314 /* NSObject+ZXDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXDExtension.m"; sourceTree = "<group>"; };
+		E1F011FA1CC72FCE00251314 /* ZXDBlackMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDBlackMagic.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		E1BE4F321CC627620090B800 /* ZXDSmapleCode */ = {
 			isa = PBXGroup;
 			children = (
+				E1F011F91CC72FA700251314 /* core */,
 				E1BE4F4A1CC627760090B800 /* ObjectExtension */,
 				E1BE4F361CC627620090B800 /* AppDelegate.h */,
 				E1BE4F371CC627620090B800 /* AppDelegate.m */,
@@ -137,6 +139,14 @@
 				E1BE4F561CC62F3C0090B800 /* Info.plist */,
 			);
 			path = ZXDSmapleCodeTests;
+			sourceTree = "<group>";
+		};
+		E1F011F91CC72FA700251314 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E1F011FA1CC72FCE00251314 /* ZXDBlackMagic.h */,
+			);
+			name = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
