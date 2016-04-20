@@ -21,6 +21,9 @@
         NSDictionary *attributes = @{NSFontAttributeName:font, NSParagraphStyleAttributeName:paragraphStyle.copy};
         
         expectedLabelSize = [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
+    }else{
+    
+        expectedLabelSize = [self sizeWithFont:font constrainedToSize:size lineBreakMode:NSLineBreakByWordWrapping];
     }
     
     return CGSizeMake(ceil(expectedLabelSize.width), ceil(expectedLabelSize.height));
