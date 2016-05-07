@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E19FE5CE1CDDC8DB0089EA5B /* ZXDDebugTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E19FE5CD1CDDC8DB0089EA5B /* ZXDDebugTool.m */; };
 		E1BE4F351CC627620090B800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4F341CC627620090B800 /* main.m */; };
 		E1BE4F381CC627620090B800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4F371CC627620090B800 /* AppDelegate.m */; };
 		E1BE4F3B1CC627620090B800 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4F3A1CC627620090B800 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E19FE5CC1CDDC8DB0089EA5B /* ZXDDebugTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDDebugTool.h; sourceTree = "<group>"; };
+		E19FE5CD1CDDC8DB0089EA5B /* ZXDDebugTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDDebugTool.m; sourceTree = "<group>"; };
 		E1BE4F301CC627620090B800 /* ZXDSmapleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXDSmapleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BE4F341CC627620090B800 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1BE4F361CC627620090B800 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E19FE5CB1CDDC8B80089EA5B /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				E19FE5CC1CDDC8DB0089EA5B /* ZXDDebugTool.h */,
+				E19FE5CD1CDDC8DB0089EA5B /* ZXDDebugTool.m */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
 		E1BE4F271CC627620090B800 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,7 @@
 		E1BE4F321CC627620090B800 /* ZXDSmapleCode */ = {
 			isa = PBXGroup;
 			children = (
+				E19FE5CB1CDDC8B80089EA5B /* Debug */,
 				E1F011F91CC72FA700251314 /* core */,
 				E1BE4F4A1CC627760090B800 /* ObjectExtension */,
 				E1BE4F361CC627620090B800 /* AppDelegate.h */,
@@ -253,6 +266,7 @@
 				E1BE4F3B1CC627620090B800 /* ViewController.m in Sources */,
 				E1F011F71CC70EA900251314 /* NSObject+ZXDExtension.m in Sources */,
 				E1BE4F5E1CC631560090B800 /* NSData+ZXDExtension.m in Sources */,
+				E19FE5CE1CDDC8DB0089EA5B /* ZXDDebugTool.m in Sources */,
 				E1BE4F381CC627620090B800 /* AppDelegate.m in Sources */,
 				E1BE4F611CC632C50090B800 /* NSString+ZXDExtension.m in Sources */,
 				E1BE4F351CC627620090B800 /* main.m in Sources */,
