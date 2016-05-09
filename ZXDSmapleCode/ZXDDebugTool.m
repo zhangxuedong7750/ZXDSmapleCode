@@ -9,8 +9,7 @@
 #import "ZXDDebugTool.h"
 #import <objc/runtime.h>
 
-#undef	XYDebug_key_hookDealloc
-#define XYDebug_key_hookDealloc	"XYDebug.hookDealloc"
+static const char *debugKey = "hookDealloc";
 
 @interface Deallocer : NSObject
 @property (nonatomic ,copy) NSString *stringDealloc;
@@ -29,6 +28,6 @@
 {
     Deallocer *deallocer = [[Deallocer alloc] init];
     deallocer.stringDealloc = string;
-    objc_setAssociatedObject(anObject, XYDebug_key_hookDealloc, deallocer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(anObject, debugKey, deallocer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 @end

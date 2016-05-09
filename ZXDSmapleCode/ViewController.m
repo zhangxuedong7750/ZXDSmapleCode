@@ -35,9 +35,9 @@
     /*
         NSTaggedPointerString
     */
-    NSString *tagStr = [NSString stringWithFormat:@"123456789"];
-    NSLog(@"address: %p  Class: %@",tagStr,[tagStr class]);
-    [ZXDDebugTool hookObject:tagStr whenDeallocLogString:@"tagStr被释放"];
+//    NSString *tagStr = [NSString stringWithFormat:@"123456789"];
+//    NSLog(@"address: %p  Class: %@",tagStr,[tagStr class]);
+//    [ZXDDebugTool hookObject:tagStr whenDeallocLogString:@"tagStr被释放"];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
